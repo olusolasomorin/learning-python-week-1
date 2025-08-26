@@ -124,5 +124,19 @@ def greet(name):
 # Funtion call
 result = greet("Esther")
 
-# Y0u will notice that it did not store the name
+# You will notice that it did not store the name
 print("Result:", result)
+
+
+#2. return
+# You can use it if you want to give back a value.
+# return sends a value back to the function caller.
+# The function ends immediately once it hits return.
+# Think of it like filling a form and handing it back, the caller now owns the result and can reuse it.
+# So you can use `return` when you need the result for further computation or storage.For example, math calculations, data processing, formatting text.
+
+def add(a, b):
+    return a + b
+# Function call
+result = add(4, 6)
+print("The sum is:", result)  # Note the output and compare it with that of print()
